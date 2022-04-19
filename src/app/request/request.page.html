@@ -1,0 +1,73 @@
+<ion-fab horizontal="start" vertical="top" slot="fixed" routerLink="/bookauto">
+  <ion-fab-button color="danger">
+    <ion-icon name="arrow-back"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+
+
+<ion-content class="bg">
+
+  <div class="message">
+    &check; Made by <a href="https://codepen.io/pieter-biesemans/" target="_blank"
+      title="&check; check out my other work">Pieter Biesemans</a><i>with &#9749;, &#128420; &amp; &#8986;</i>
+  </div>
+
+  <div class="card" data-tilt data-tilt-scale="0.95" data-tilt-startY="40">
+    <div class="welcome">
+      Welcome to
+    </div>
+    <div class="year">
+      <span>Twenty</span>
+      <span>Twenty</span>
+      <span>One</span>
+    </div>
+  </div>
+
+
+  <div style="margin-top: 148%; margin: 20%;" class="bg-white p-5 rounded-tr-3xl rounded-tl-3xl z-10">
+    <div class="flex justify-between border-b-2 border-gray-300 p-1">
+      <div>
+        <ion-icon class="text-3xl text-black" name="car"></ion-icon>
+      </div>
+      <div class="flex flex-grow ml-2">
+        <span>
+          <b>Just Go</b>
+          <p class="text-gray-500">Near by you</p>
+        </span>
+      </div>
+      <div>
+        <span>
+          <b>₹50.00</b>
+          <p class="text-gray-500">20 min</p>
+        </span>
+      </div>
+    </div><br>
+
+    <div class="flex justify-between">
+      <div align="center" routerLink="/option">
+        <ion-icon class="text-2xl text-center text-gray-400" name="ellipsis-horizontal"></ion-icon><br>
+        <ion-text align="center" class="text-sm" color="dark">
+          Options
+        </ion-text>
+      </div>
+      <div align="center" routerLink="/promocode">
+        <ion-icon class="text-2xl text-center text-gray-400" name="pricetags"></ion-icon><br>
+        <ion-text align="center" class="text-sm" color="dark">
+          Promo Code
+        </ion-text>
+      </div>
+      <div align="center" routerLink="/payment">
+        <ion-icon class="text-2xl text-center text-gray-400" name="wallet"></ion-icon><br>
+        <ion-text align="center" class="text-sm" color="dark">
+          Payment
+        </ion-text>
+      </div>
+    </div><br>
+
+    <div routerLink="/confirm">
+      <ion-button expand="block" color="danger">
+        Request
+      </ion-button>
+    </div>
+  </div>
+</ion-content>

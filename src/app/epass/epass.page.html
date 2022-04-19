@@ -1,0 +1,209 @@
+<div class="flex justify-between bg-red-600 p-4">
+  <div routerLink="/dashboard">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600 bg-white rounded-lg" viewBox="0 0 20 20"
+      fill="currentColor">
+      <path fill-rule="evenodd"
+        d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
+        clip-rule="evenodd" />
+    </svg>
+  </div>
+  <div>
+    <ion-title class="text-white text-center  mr-8">E-Pass </ion-title>
+  </div>
+  <div>
+  </div>
+</div>
+
+<ion-content>
+
+
+  <ion-card class="bg-white">
+    <div class="flex justify-between" align="center">
+      <div class="bg-blue-900 w-full rounded-br-xl rounded-bl-xl h-6">
+        <p class="text-white text-sm p-1"><b>E-Pass</b></p>
+      </div>
+    </div>
+
+    <ion-row class="pl-4 pb-2 pt-1">
+      <ion-col size="6">
+        <ion-label class="text-sm text-black"><span><b>Pass Number :</b></span> 12345</ion-label><br>
+      </ion-col>
+      <ion-col size="6">
+        <ion-label class="text-sm text-black"><span><b>Location :</b></span> Amravati</ion-label>
+      </ion-col>
+    </ion-row>
+
+
+    <div class="pl-4 pr-4 pb-5">
+      <div style="border: 1px solid red;" class="pl-4 pr-4 pb-4 rounded-md">
+        <ion-row>
+          <ion-col size="5">
+            <ion-label class="text-base text-black"><b>Name </b></ion-label>
+          </ion-col>
+          <ion-col size="1"><b>:</b></ion-col>
+          <ion-col size="6">
+            <ion-label class="text-base text-gray-500"><b>Niraj Vyas </b></ion-label>
+          </ion-col>
+
+          <ion-col size="5">
+            <ion-label class="text-base text-black"><b>Contact No. </b></ion-label>
+          </ion-col>
+          <ion-col size="1"><b>:</b></ion-col>
+          <ion-col size="6">
+            <ion-label class="text-base text-gray-500"><b>8678787990 </b></ion-label>
+          </ion-col>
+
+          <ion-col size="5">
+            <ion-label class="text-base text-black"><b>Start Date </b></ion-label>
+          </ion-col>
+          <ion-col size="1"><b>:</b></ion-col>
+          <ion-col size="6">
+            <ion-label class="text-base text-gray-500"><b>22/02/2022 </b></ion-label>
+          </ion-col>
+
+          <ion-col size="5">
+            <ion-label class="text-base text-black"><b>End Date </b></ion-label>
+          </ion-col>
+          <ion-col size="1"><b>:</b></ion-col>
+          <ion-col size="6">
+            <ion-label class="text-base text-gray-500"><b>25/02/2022 </b></ion-label>
+          </ion-col>
+
+
+          <ion-col size="6">
+            <div style="border: 1px solid gray;">
+              <img src="assets/doctor_avatar.png" alt="">
+            </div>
+          </ion-col>
+          <ion-col size="6">
+            <div style="border: 1px solid gray;">
+              <img src="assets/QR code.png" alt="">
+            </div>
+          </ion-col>
+        </ion-row>
+
+      </div>
+    </div>
+  </ion-card>
+
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button expand="block" color="danger">
+          Download &nbsp;
+        </ion-button>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-button expand="block" color="danger">
+          Renew &nbsp;
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+  <!-- ==============
+            1nd Card
+         ==============    -->
+  <!-- <ion-card class="bg">
+    <div class="flex justify-between" align="center">
+      <div class="bg-white rounded-br-xl  h-6">
+        <p class="text-blue-900 text-sm p-1"><b>Subscription</b></p>
+      </div>
+    </div>
+
+    <ion-row>
+      <ion-col size="7">
+        <ion-label class="text-xs text-gray-300"><span><b>Full Name :</b></span> Nilesh Kumar</ion-label><br>
+      </ion-col>
+      <ion-col size="5">
+        <ion-label class="text-xs text-gray-300"><span><b>DOB :</b></span> 11 June 2022</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="7">
+        <ion-label class="text-xs text-gray-300"><span><b>Mobile No :</b></span> 8789786756</ion-label><br>
+      </ion-col>
+      <ion-col size="5">
+        <ion-label class="text-xs text-gray-300"><span><b>Add No :</b></span> 23434556677</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="border-b-2 border-gray-200">
+      <ion-col size="7">
+        <ion-label class="text-xs text-gray-300"><span><b>Satrt Date:</b></span> 22 June</ion-label>
+      </ion-col>
+      <ion-col size="5">
+        <ion-label class="text-xs text-gray-300"><span><b>Location :</b></span> Amravati</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6">
+        <p class="text-gray-300"><b>PLAN :</b> 1 Month (2500)</p>
+      </ion-col>
+      <ion-col size="6">
+        <ion-row>
+          <ion-col size="4">
+            <img src="assets/doctor_avatar.png" alt="" width="50%" height="50%" style="margin-left: 20px;">
+          </ion-col>
+          <ion-col size="4">
+            <img src="assets/QR code.png" alt="" width="70%" height="70%" style="margin-top: -5px;">
+          </ion-col>
+          <ion-col size="4" routerLink="/subscription">
+            <button expand="block" class="bg-yellow-300 rounded-md p-1 text-black text-xs">
+              Renew
+            </button>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-card> -->
+
+</ion-content>
+
+
+
+<div class="flex justify-between bg-white">
+  <div>
+    <ion-tab-button tab="music" routerLink="/dashboard">
+      <ion-label><b>Home</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500; margin-top: 2;" color="danger" name="home"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div style="margin-left: 2%;">
+    <ion-tab-button tab="games" routerLink="/epass">
+      <ion-label><b>E-Pass</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="newspaper"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div align="center" class="pl-4">
+    <ion-fab horizontal="center" vertical="bottom" slot="fixed" routerLink="/scan"
+      style="margin-top: -3%; z-index: 2; margin-right: 10%;">
+      <ion-fab-button color="danger">
+        <ion-icon class="text-base" name="qr-code-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </div>
+
+  <div style="margin-left: 15%;">
+    <ion-tab-button tab="games" routerLink="/history">
+      <ion-label><b>History</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="reader"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div>
+    <ion-tab-button tab="games" routerLink="/profile">
+      <ion-label><b>Profile</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="person"></ion-icon>
+
+    </ion-tab-button>
+  </div>
+</div>

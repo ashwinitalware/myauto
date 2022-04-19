@@ -1,0 +1,62 @@
+<!-- <ion-app>
+  <ion-router-outlet></ion-router-outlet>
+</ion-app> -->
+
+<ion-app>
+  <ion-menu side="start" contentId="main" menuClose="left">
+    <ion-content class="menubar">
+      <div align="center" class="pt-3 bg-red-600 rounded-br-lg rounded-bl-lg">
+        <img src="assets/iconmenu.png" width="20%" height="20%" alt="">
+        <ion-text class="pt-3" color="light"><b>Mr. Rakesh</b><br>
+          <p class="text-sm">rakesh.nfo@gmail.com</p><br>
+        </ion-text>
+      </div>
+
+      <ion-list class="menu-items" lines="none">        
+        <ion-menu-toggle auto-hide="false">
+          <ion-item routerLink="/profile">
+            <ion-icon color="danger" name="person-circle"></ion-icon>&nbsp;&nbsp;
+            <ion-text color="dark">My Account</ion-text>
+          </ion-item>
+
+          <ion-item routerLink="/nominees">
+            <ion-icon color="danger" name="shield-checkmark"></ion-icon>&nbsp;&nbsp;
+            <ion-text color="dark">Nominees</ion-text>
+          </ion-item>
+
+          <ion-item routerLink="/epass">
+            <ion-icon color="danger" name="reader"></ion-icon>&nbsp;&nbsp;
+            <ion-text color="dark">E-Pass Date</ion-text>
+          </ion-item>
+
+          <ion-item>
+            <ion-icon color="danger" name="sync-circle"></ion-icon>&nbsp;&nbsp;
+            <ion-text color="dark">Update E-Pass</ion-text>
+          </ion-item>
+
+          <ion-item routerLink="/customerfeedback">
+            <ion-icon color="danger" name="chatbox-ellipses"></ion-icon>&nbsp;&nbsp;
+            <ion-text color="dark">Customer Feedback</ion-text>
+          </ion-item>
+
+          <ion-item routerLink="/terms">
+            <ion-icon color="danger" name="information-circle"></ion-icon>&nbsp;&nbsp;
+            <ion-text color="dark">Terms & Conditions</ion-text>
+          </ion-item>
+
+          <ion-item routerLink="/privacy">
+            <ion-icon color="danger" name="lock-closed"></ion-icon>&nbsp;&nbsp;
+            <ion-text color="dark">Privacy Policy</ion-text>
+          </ion-item>
+
+          <ion-item>
+            <ion-icon color="danger" name="log-out"></ion-icon>&nbsp;&nbsp;
+            <ion-text color="dark">Log Out</ion-text>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main">
+  </ion-router-outlet>
+</ion-app>

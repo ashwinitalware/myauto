@@ -1,0 +1,37 @@
+<ion-content class="bg_img">
+  <div class="p-8 pl-15 pr-15" align="center" style="margin-top: 30%;">
+    <img class="heartbeat" src="assets/Mytatoz Logo Png.png" width="40%" height="40%" alt="">
+  </div>
+
+  <div class="col-3 input-effect">
+    <input class="effect-19" type="password" placeholder="New Password">
+    <span class="focus-border">
+      <i></i>
+    </span>
+  </div>
+
+  <div class="col-3 input-effect">
+    <input class="effect-19" type="password" placeholder="Confirm Password">
+    <span class="focus-border">
+      <i></i>
+    </span>
+  </div>
+
+
+  <div class="pl-6 pr-6 pt-1" (click)="confirmpassword()">
+    <ion-button expand="block" color="danger">
+      Update Password &nbsp; <ion-icon class="shake-horizontal ml-3" color="light" slot="end"
+        name="arrow-forward-outline"></ion-icon>
+    </ion-button>
+  </div>
+
+  <ion-fab horizontal="end" vertical="bottom" slot="fixed">
+    <ion-fab-button color="primary">
+      <ion-icon name="location" ios="chevron-back-circle-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="start">
+      <ion-label color="primary"><b>ContactUs</b></ion-label>
+    </ion-fab-list>
+  </ion-fab>
+
+</ion-content>

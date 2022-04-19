@@ -1,0 +1,107 @@
+// .background-image {
+//   background: url('assets/map.jpg') no-repeat 100% 100%;
+// }
+
+// ion-content {
+//   --background-image: url('assets/map.jpg');
+// }
+
+.bg {
+  --background: url("/assets/map.jpg") 0 0/100% 100% no-repeat;
+  width: 100%;
+}
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+ion-content {
+  --ion-background-color: var(--ion-color-light);
+}
+
+.top_wave {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+
+}
+
+.menu-header-bg1 {
+  position: sticky;
+  top: 10vh;
+  background-color: var(--ion-color-light);
+  z-index: 9999;
+  text-align: center;
+  padding-bottom: 2vh;
+
+  .username {
+    font-size: 1.2em;
+    color: var(--ion-color-dark);
+    font-weight: bold;
+    display: block;
+  }
+
+  .useremail {
+    font-size: 0.8em;
+    color: var(--ion-color-medium2);
+  }
+
+  .header-content {
+    justify-content: center;
+    text-align: center;
+
+    img {
+      width: 10vh;
+      height: 10vh;
+      border-radius: 50%;
+      border: 0.5vh solid rgb(214, 214, 214);
+      padding: 2px;
+    }
+  }
+}
+
+
+
+.menu-items {
+  padding-top: -3vh;
+
+  ion-item {
+    //padding-left: 2vh;
+    font-size: 0.9em;
+    color: var(--ion-color-medium2);
+    font-weight: bold;
+    padding-bottom: 0.01vh;
+
+    .faicon {
+      font-size: 1.0em;
+      margin-right: 5vh;
+    }
+  }
+
+  .active {
+    color: var(--ion-color-primary);
+
+    ion-icon {
+      color: var(--ion-color-primary);
+    }
+  }
+}
+
+.image_clone {
+  min-height: 10vh;
+  min-width: 10vh;
+  max-height: 10vh;
+  max-width: 10vh;
+  border-radius: 10vh;
+  border: 1px solid var(--ion-color-medium-tint);
+  background: var(--ion-color-medium-tint);
+  display: inline-block;
+  padding-top: 3.5vh;
+  opacity: 0.5;
+
+  .image_clone_text {
+    color: var(--ion-color-light);
+    font-size: 1.2em;
+  }
+}

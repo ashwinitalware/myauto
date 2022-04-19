@@ -1,0 +1,176 @@
+<div class="flex justify-between bg-red-600 p-4">
+  <div routerLink="/dashboard">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600 bg-white rounded-lg" viewBox="0 0 20 20"
+      fill="currentColor">
+      <path fill-rule="evenodd"
+        d="M9.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L7.414 9H15a1 1 0 110 2H7.414l2.293 2.293a1 1 0 010 1.414z"
+        clip-rule="evenodd" />
+    </svg>
+  </div>
+
+  <div>
+    <ion-title class="text-white text-center  mr-8">Profile </ion-title>
+  </div>
+
+  <div>
+    <svg routerLink="/editpage" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 20 20"
+      fill="currentColor">
+      <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z" />
+      <path fill-rule="evenodd"
+        d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+        clip-rule="evenodd" />
+    </svg>
+  </div>
+</div>
+
+<ion-content>
+  <div class="p-2">
+    <ion-card class="bg-white">
+      <ion-grid fixed>
+        <ion-row>
+          <ion-col size="3">
+            <img src="assets/icon_img.jpg" alt="">
+          </ion-col>
+          <ion-col size="9">
+            <ion-label><b>Nilesh S. Kumar</b><br>
+              <p class="text-gray-500 text-sm">
+                <ion-icon name="location-outline"></ion-icon>Rathi Nagar, Amravati
+              </p>
+            </ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+
+    <div>
+      <ion-item>
+        <ion-icon class="text-sm" name="call-outline"></ion-icon>&nbsp;
+        <ion-label class="text-xs">Mobile Number : +91 8778788987</ion-label>
+      </ion-item>
+    </div>
+
+    <ion-card class="bg-white p-2">
+      <ion-label class="border-b-2 border-dashed border-gray-200"><b>Personal Details</b></ion-label>
+      <ion-grid fixed>
+        <ion-row>
+          <ion-col size="5">
+            <ion-label><b>Mobile Number</b> </ion-label>
+          </ion-col>
+          <ion-col size="1">
+            :
+          </ion-col>
+          <ion-col size="6">
+            <ion-label>+91 8767564534
+            </ion-label>
+          </ion-col>
+
+          <ion-col size="5">
+            <ion-label><b>Mobile Number</b> </ion-label>
+          </ion-col>
+          <ion-col size="1">
+            :
+          </ion-col>
+          <ion-col size="6">
+            <ion-label>+91 8767564534
+            </ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+
+
+  </div>
+
+  <div style="margin-top: 10%; position: relative; z-index: 1000;" align="center">
+    <img class="thumb" src="assets/icon_img.jpg" />
+  </div>
+
+
+  <!-- <div style="margin-top: 10%;  position: relative; z-index: 1000;" align="center" class="pt-3">
+    <img src="assets/icon_img.jpg" alt="Avatar" style="width:200px; border-radius: 50%;">
+  </div> -->
+
+
+  <!-- ==============
+            1nd Card
+         ==============    -->
+  <ion-card class="bg" style="margin-top: -7%;">
+    <ion-row class="pt-4 pl-2">
+      <ion-col size="7">
+        <ion-label class="text-xs text-white"><span><b>Full Name :</b></span> Nilesh Kumar</ion-label><br>
+      </ion-col>
+      <ion-col size="5">
+        <ion-label class="text-xs text-white"><span><b>DOB :</b></span> 11 June 2022</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="pl-2">
+      <ion-col size="7">
+        <ion-label class="text-xs text-white"><span><b>Mobile No :</b></span> 8789786756</ion-label><br>
+      </ion-col>
+      <ion-col size="5">
+        <ion-label class="text-xs text-white"><span><b>Add No :</b></span> 23434556677</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="pl-2">
+      <ion-col size="7">
+        <ion-label class="text-xs text-white"><span><b>UserId :</b></span> Nilesh123</ion-label>
+      </ion-col>
+      <ion-col size="5">
+        <ion-label class="text-xs text-white"><span><b>Location :</b></span> Amravati</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="pb-4 pl-2">
+      <ion-col size="7">
+        <ion-label class="text-xs text-white"><span><b>Password :</b></span> ********</ion-label>
+      </ion-col>
+      <ion-col size="5">
+        <ion-label class="text-xs text-white"><span><b>Insurance :</b></span> Yes</ion-label>
+      </ion-col>
+    </ion-row>
+
+  </ion-card>
+
+</ion-content>
+
+<div class="flex justify-between bg-white">
+  <div>
+    <ion-tab-button tab="music" routerLink="/dashboard">
+      <ion-label><b>Home</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500; margin-top: 2;" color="danger" name="home"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div style="margin-left: 2%;">
+    <ion-tab-button tab="games" routerLink="/epass">
+      <ion-label><b>E-Pass</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="newspaper"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div align="center" class="pl-4">
+    <ion-fab horizontal="center" vertical="bottom" slot="fixed" routerLink="/scan"
+      style="margin-top: -3%; z-index: 2; margin-right: 10%;">
+      <ion-fab-button color="danger">
+        <ion-icon class="text-base" name="qr-code-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </div>
+
+  <div style="margin-left: 15%;">
+    <ion-tab-button tab="games" routerLink="/history">
+      <ion-label><b>History</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="reader"></ion-icon>
+    </ion-tab-button>
+  </div>
+
+  <div>
+    <ion-tab-button tab="games" routerLink="/profile">
+      <ion-label><b>Profile</b></ion-label>
+      <ion-icon style="font-size: 15px; font-weight: 500;" color="danger" name="person"></ion-icon>
+
+    </ion-tab-button>
+  </div>
+</div>

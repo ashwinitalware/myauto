@@ -1,0 +1,59 @@
+<ion-fab horizontal="start" vertical="top" slot="fixed" routerLink="/bookauto">
+  <ion-fab-button color="danger">
+    <ion-icon name="arrow-back"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+
+
+<ion-content class="bg">
+  <div style="margin-top: 162%;" class="bg-white p-5 rounded-tr-3xl rounded-tl-3xl z-10">
+    <div class="flex justify-between border-b-2 border-gray-300 p-1">
+      <div>
+        <ion-icon class="text-3xl text-black" name="car"></ion-icon>
+      </div>
+      <div>
+        <span>
+          <b>3.5 Km</b>
+          <p class="text-gray-500">Distance</p>
+        </span>
+      </div>
+      <div>
+        <span>
+          <b>10 Min</b>
+          <p class="text-gray-500">Time</p>
+        </span>
+      </div>
+      <div>
+        <span>
+          <b>₹ 120 </b>
+          <p class="text-gray-500">Price</p>
+        </span>
+      </div>
+    </div>
+    <!-- <div class="flex justify-between border-b-2 border-gray-300 p-1">
+        <div>
+          <ion-icon class="text-3xl text-black" name="car"></ion-icon>
+        </div>
+        <div class="flex flex-grow ml-2">
+        <span>
+          <b>Just Go</b>
+          <p class="text-gray-500">Near by you</p>
+        </span>
+        </div>
+        <div>
+          <span>
+            <b>₹50.00</b>
+            <p class="text-gray-500">20 min</p>
+          </span>
+        </div>
+      </div><br> -->
+
+    <div class="pt-5" routerLink="/ridesummery">
+      <!-- <ion-alert-controller></ion-alert-controller> -->
+      <ion-button expand="block" color="danger">
+        Confirm&nbsp; <ion-icon class="shake-horizontal ml-3" color="light" slot="end" name="arrow-forward-outline">
+        </ion-icon>
+      </ion-button>
+    </div>
+  </div>
+</ion-content>
